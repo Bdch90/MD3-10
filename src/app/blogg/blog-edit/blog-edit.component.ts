@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { IPost } from '../post';
-import { PostService } from '../post.service';
+import { IPost } from '../../post';
+import { PostService } from '../../post.service';
 
 @Component({
   selector: 'app-blog-edit',

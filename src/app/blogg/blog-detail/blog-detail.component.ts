@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { PostService } from '../post.service';
-import { IPost } from '../post';
+import { PostService } from '../../post.service';
+import { IPost } from '../../post';
 
 @Component({
   selector: 'app-blog-detail',
