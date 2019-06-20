@@ -7,6 +7,7 @@ import {ITodo} from './todo';
 @Injectable({
   providedIn: 'root'
 })
+
 export class TodoService {
   private readonly API_URL = 'http://jsonplaceholder.typicode.com/todos';
 
